@@ -1,0 +1,367 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+}
+
+body {
+     background-image: url(./images/background.jpg);
+     background-size: cover;
+    height: 300px;
+    width: 100%; 
+}
+header {
+    display: flex;
+    border: 1px solid white;
+    width:80%;
+    background-color: black;
+    align-items: center;
+    margin: 40px 140px;
+    justify-content: space-between;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+}
+header ul li {
+    list-style-type: none;
+    color: white;
+    font-size: larger;
+    padding: 20px;
+}
+.elements ul {
+    display: flex;
+    gap: 2rem;
+}
+.heading1 {
+    display: flex;
+    justify-content: space-between;
+    color: orange;
+    background-color: white;
+    width: 100%;
+    /* margin: -28px 0px 0px 12px; */
+}
+
+.left {
+    background-color: black;
+    width: 943px;
+}
+.right {
+    background-color:orange;
+    color: black;
+    width: 320px;
+}
+.left h1 i {
+    padding: 10px;
+    color: white;
+}
+.right h1 i {
+    padding: 10px;
+    color: white;
+}
+.img img {
+    width: 300px;
+}
+.body{
+    display: flex;
+    gap: 0.5em;;
+    border: 2px solid black;
+    width: 882px;
+    margin: 32px;
+}
+.content h2{
+    margin: 30px 0px 0px 390px;
+    color: orange;
+}
+.side ul li{
+    
+    border-bottom: 1px dotted white ;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+.middle{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.news_left{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    margin-left: -21px;
+    cursor: pointer;
+}
+.side ul li h2 i{
+    color: orange;
+}
+.side li:hover{
+    background-color: lightslategrey;
+}
+.footer{
+    
+    width:95%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin: 20px;
+    /* padding: 20px; */
+  
+   
+
+}
+.footer_style{
+    display: flex;
+     gap: 2rem;
+    justify-content: space-between;
+      margin: 10px 30px;
+}
+.logos ul{
+    display: flex;
+    /* justify-content: space-between; */
+   gap: 2rem;
+}
+.copyrights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyrights span {
+    padding: 8px;
+    color:orange
+}
+
+.media h3{
+    color:orange;
+}
+.media h3 i{
+    color: lightslategrey;
+}
+
+ /* ABOUT ................................................................................................*/
+
+
+ .image img{
+    width: 80%;
+    margin: 50px;
+    border: 6px solid black;
+ }
+ .text {
+    width: 70%;
+    margin: -45px 100px 0px 80px ;
+    height: 700px;
+ }
+ .text h1{
+    color: blueviolet;
+ }
+
+
+ /* player details..................................................................................... */
+
+.player img{
+    width: 50%;
+    margin: 22px 0px 0px 11px;
+    border: 5px solid black;
+    /* height: 80%; */
+}
+.data{
+    
+    margin: 30px 30px 0px -443px;
+}
+.playername{
+    display: flex;
+}
+.data2{
+    margin: 30px;
+}
+
+
+/* news details ................................................................................................*/
+ 
+  
+
+.comments{
+    border: 2px solid black;
+    width: 150%;
+    margin: 0px -75px;
+}
+
+
+/* team........................................................................................................... */
+.players ul li img{
+    width: 175px;
+    height: 220px;
+}
+.players ul{
+    display: flex;
+    gap:0.5rem
+}
+
+/*  schedule ................................................................................................*/
+.Schedule img{
+    width: 100%;
+    margin: 1px 1px;
+    border: 6px solid black;
+    height: 300px;
+ }
+.week{
+    display: flex;
+    gap: 3rem;;
+    border: 2px solid black;
+    width: 882px;
+    padding: 30px;
+}
+.week1 h1{
+    color: orange;
+}
+
+
+
+/* HOME ................................................................................................. */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home img{
+    width: 73%;
+    height: 500px;
+    position: relative;
+    margin: 20px;
+}
+.info1 {
+
+    /* background-color: black; */
+    color: white;
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    gap:2rem;
+
+    /* background-color: black; */
+    
+}
+
+.info1 ul{
+    background-color: black;
+    margin: -1334px 22px 0px 952px ;
+}
+.info2 ul{
+ background-color: black;
+ color: white;
+ margin: -773px 21px 0px 951px;
+}
+.info2 ul li:hover{
+    cursor: pointer;
+    /* color:orange; */
+    background-color: lightslategray;
+}
+.info3 ul li:hover{
+    cursor: pointer;
+    /* color:orange; */
+    background-color: lightslategray;
+}
+.info3 ul{
+    background-color: black;
+ color: white;
+ margin: 29px 19px 0px 951px;
+}
+.info1 ul li:hover{
+    cursor: pointer;
+    /* color:orange; */
+    background-color: lightslategray;
+    /* background-color: aqua; */
+}
+.banneron{
+    display: flex;
+    width: 926px;
+    /* margin: -183px 400px 30px 22px; */
+    color:white;
+    position: absolute;
+    top:597px
+}
+.bannerright{
+    
+    background-color: black;  
+    margin: -1px -4px 0px -43px;
+
+}
+.bannerright p{
+   width: 100%;
+}
+
+.bannerleft{
+    color: orange;
+    background-color: black;
+    margin: -16px 43px 0px 34px;
+}
+.container2 ul{
+    display: flex;
+    gap:2rem;
+    
+}
+.container2 ul li{
+    border: 5px solid black;
+    background-color: black;
+  
+    
+} 
+.container3 img{
+    width: 250px;
+    height: -10px;
+}
+.container3 ul{
+    display: flex;
+    gap: 2rem;
+}
+.container3 ul li{
+    border: 1px solid black;
+    height: 350px;
+    
+}
+
+
+
+/* video................................................................. margin: 0px 0px 0px 401px;*/
+
+.video video{
+    height:1000%;
+    margin: 30px;
+    border: 5px solid black;
+}
+.videos ul li video{
+    width: 97%;
+    border: 5px solid black;
+}
+.text1{
+    width: 80%;
+    margin: -45px 100px 0px 80px ;
+    height: 200px;
+}
+.videos h2{
+    color: blue;
+}
+.videos ul{
+    display: flex;
+    justify-content: space-between;
+}
+.videos ul li {
+    border: 5px solid black;
+    /* background-color: black; */
+    height: 425px;
+    margin: 18px;
+}
+
+/* ........................................................................................ */
+
+ .back{
+    background-color: white;
+    width:auto;
+    height:auto;
+    /* display:grid;
+    grid-template-columns: auto auto; */
+
+}
